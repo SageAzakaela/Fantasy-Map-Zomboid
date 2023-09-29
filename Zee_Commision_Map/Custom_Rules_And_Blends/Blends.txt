@@ -1,0 +1,2588 @@
+version = 1
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = darkgrass
+    blendTile = darkgrass_n
+    dir = n
+    exclude = water
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = darkgrass
+    blendTile = darkgrass_w
+    dir = w
+    exclude = water
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = darkgrass
+    blendTile = darkgrass_e
+    dir = e
+    exclude = water
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = darkgrass
+    blendTile = darkgrass_s
+    dir = s
+    exclude = water
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = darkgrass
+    blendTile = blends_natural_01_17
+    dir = nw
+    exclude = water
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = darkgrass
+    blendTile = blends_natural_01_20
+    dir = ne
+    exclude = water
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = darkgrass
+    blendTile = blends_natural_01_19
+    dir = sw
+    exclude = water
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = darkgrass
+    blendTile = blends_natural_01_18
+    dir = se
+    exclude = water
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = medgrass
+    blendTile = medgrass_n
+    dir = n
+    exclude = [
+        darkgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = medgrass
+    blendTile = medgrass_w
+    dir = w
+    exclude = [
+        darkgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = medgrass
+    blendTile = medgrass_e
+    dir = e
+    exclude = [
+        darkgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = medgrass
+    blendTile = medgrass_s
+    dir = s
+    exclude = [
+        darkgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = medgrass
+    blendTile = blends_natural_01_33
+    dir = nw
+    exclude = [
+        darkgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = medgrass
+    blendTile = blends_natural_01_36
+    dir = ne
+    exclude = [
+        darkgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = medgrass
+    blendTile = blends_natural_01_35
+    dir = sw
+    exclude = [
+        darkgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = medgrass
+    blendTile = blends_natural_01_34
+    dir = se
+    exclude = [
+        darkgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = lightgrass
+    blendTile = lightgrass_n
+    dir = n
+    exclude = [
+        darkgrass
+        medgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = lightgrass
+    blendTile = lightgrass_w
+    dir = w
+    exclude = [
+        darkgrass
+        medgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = lightgrass
+    blendTile = lightgrass_e
+    dir = e
+    exclude = [
+        darkgrass
+        medgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = lightgrass
+    blendTile = lightgrass_s
+    dir = s
+    exclude = [
+        darkgrass
+        medgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = lightgrass
+    blendTile = blends_natural_01_49
+    dir = nw
+    exclude = [
+        darkgrass
+        medgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = lightgrass
+    blendTile = blends_natural_01_52
+    dir = ne
+    exclude = [
+        darkgrass
+        medgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = lightgrass
+    blendTile = blends_natural_01_51
+    dir = sw
+    exclude = [
+        darkgrass
+        medgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = lightgrass
+    blendTile = blends_natural_01_50
+    dir = se
+    exclude = [
+        darkgrass
+        medgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+
+
+
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = scorchedEarth
+    blendTile = CharredEarth_n
+    dir = n
+    exclude = water CharredEarth scorchedEarth dirt sand graysand ashland
+}
+
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = scorchedEarth
+    blendTile = CharredEarth_w
+    dir = w
+    exclude = water CharredEarth scorchedEarth dirt sand graysand ashland
+}
+
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = scorchedEarth
+    blendTile = CharredEarth_e
+    dir = e
+    exclude = water CharredEarth scorchedEarth dirt sand graysand ashland
+}
+
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = scorchedEarth
+    blendTile = CharredEarth_s
+    dir = s
+    exclude = water CharredEarth scorchedEarth dirt sand graysand ashland
+}
+
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = scorchedEarth
+    blendTile = floors_burnt_01_9
+    dir = nw
+    exclude = water CharredEarth scorchedEarth dirt sand graysand ashland
+    exclude2 = [
+	street_trafficlines_01 0_FloorOverlay
+	street_trafficlines_01 0_FloorOverlay2
+	street_trafficlines_01 0_FloorOverlay3
+	street_trafficlines_01 0_FloorOverlay4
+    ]
+}
+
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = scorchedEarth
+    blendTile = floors_burnt_01_12
+    dir = ne
+    exclude = water CharredEarth scorchedEarth dirt sand graysand ashland
+    exclude2 = [
+	street_trafficlines_01 0_FloorOverlay
+	street_trafficlines_01 0_FloorOverlay2
+	street_trafficlines_01 0_FloorOverlay3
+	street_trafficlines_01 0_FloorOverlay4
+    ]
+}
+
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = scorchedEarth
+    blendTile = floors_burnt_01_11
+    dir = sw
+    exclude = water CharredEarth scorchedEarth dirt sand graysand ashland
+    exclude2 = [
+	street_trafficlines_01 0_FloorOverlay
+	street_trafficlines_01 0_FloorOverlay2
+	street_trafficlines_01 0_FloorOverlay3
+	street_trafficlines_01 0_FloorOverlay4
+    ]
+}
+
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = scorchedEarth
+    blendTile = floors_burnt_01_10
+    dir = se
+    exclude = water CharredEarth scorchedEarth dirt sand graysand ashland
+    exclude2 = [
+	street_trafficlines_01 0_FloorOverlay
+	street_trafficlines_01 0_FloorOverlay2
+	street_trafficlines_01 0_FloorOverlay3
+	street_trafficlines_01 0_FloorOverlay4
+    ]
+}
+
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = ashland
+    blendTile = ashland_n
+    dir = n
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = ashland
+    blendTile = ashland_w
+    dir = w
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = ashland
+    blendTile = ashland_e
+    dir = e
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = ashland
+    blendTile = ashland_s
+    dir = s
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = ashland
+    blendTile = AZA_Ashland_Blends_1_1
+    dir = nw
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = ashland
+    blendTile = AZA_Ashland_Blends_1_4
+    dir = ne
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = ashland
+    blendTile = AZA_Ashland_Blends_1_3
+    dir = sw
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = ashland
+    blendTile = AZA_Ashland_Blends_1_2
+    dir = se
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+
+
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = snowgrass
+    blendTile = snowgrass_n
+    dir = n
+    exclude = [
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = snowgrass
+    blendTile = snowgrass_w
+    dir = w
+    exclude = [
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = snowgrass
+    blendTile = snowgrass_e
+    dir = e
+    exclude = [
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = snowgrass
+    blendTile = snowgrass_s
+    dir = s
+    exclude = [
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = snowgrass
+    blendTile = AZA_SnowGrass_1
+    dir = nw
+    exclude = [
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = snowgrass
+    blendTile = AZA_SnowGrass_4
+    dir = ne
+    exclude = [
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = snowgrass
+    blendTile = AZA_SnowGrass_3
+    dir = sw
+    exclude = [
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = snowgrass
+    blendTile = AZA_SnowGrass_2
+    dir = se
+    exclude = [
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+
+
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = snowiergrass
+    blendTile = snowiergrass_n
+    dir = n
+    exclude = [
+	sand
+	ice
+	snowgrass
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = snowiergrass
+    blendTile = snowiergrass_w
+    dir = w
+    exclude = [
+	sand
+	ice
+	snowgrass
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = snowiergrass
+    blendTile = snowiergrass_e
+    dir = e
+    exclude = [
+	sand
+	ice
+	snowgrass
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = snowiergrass
+    blendTile = snowiergrass_s
+    dir = s
+    exclude = [
+	sand
+	ice
+	snowgrass
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = snowiergrass
+    blendTile = AZA_SnowierGrass_1
+    dir = nw
+    exclude = [
+	sand
+	ice
+	snowgrass
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = snowiergrass
+    blendTile = AZA_SnowierGrass_4
+    dir = ne
+    exclude = [
+	sand
+	ice
+	snowgrass
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = snowiergrass
+    blendTile = AZA_SnowierGrass_3
+    dir = sw
+    exclude = [
+	sand
+	ice
+	snowgrass
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = snowiergrass
+    blendTile = AZA_SnowierGrass_2
+    dir = se
+    exclude = [
+	sand
+	ice
+	snowgrass
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+
+
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = ice
+    blendTile = ice_n
+    dir = n
+    exclude = [
+	sand
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = ice
+    blendTile = ice_w
+    dir = w
+    exclude = [
+	sand
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = ice
+    blendTile = ice_e
+    dir = e
+    exclude = [
+	sand
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = ice
+    blendTile = ice_s
+    dir = s
+    exclude = [
+	sand
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = ice
+    blendTile = AZA_Ice_1
+    dir = nw
+    exclude = [
+	sand
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = ice
+    blendTile = AZA_Ice_4
+    dir = ne
+    exclude = [
+	sand
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = ice
+    blendTile = AZA_Ice_3
+    dir = sw
+    exclude = [
+	sand
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = ice
+    blendTile = AZA_Ice_2
+    dir = se
+    exclude = [
+	sand
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+
+
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = fae_frostland
+    blendTile = fae_frostland_n
+    dir = n
+    exclude = [
+	fae_grass
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = fae_frostland
+    blendTile = fae_frostland_w
+    dir = w
+    exclude = [
+	fae_grass
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = fae_frostland
+    blendTile = fae_frostland_e
+    dir = e
+    exclude = [
+	fae_grass
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = fae_frostland
+    blendTile = fae_frostland_s
+    dir = s
+    exclude = [
+	fae_grass
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = fae_frostland
+    blendTile = AZA_FaeFrostLand_1
+    dir = nw
+    exclude = [
+	fae_grass
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = fae_frostland
+    blendTile = AZA_FaeFrostLand_4
+    dir = ne
+    exclude = [
+	fae_grass
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = fae_frostland
+    blendTile = AZA_FaeFrostLand_3
+    dir = sw
+    exclude = [
+	fae_grass
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = fae_frostland
+    blendTile = AZA_FaeFrostLand_2
+    dir = se
+    exclude = [
+	fae_grass
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+
+
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = fae_sand
+    blendTile = fae_sand_n
+    dir = n
+    exclude = [
+	fae_frostland
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = fae_sand
+    blendTile = fae_sand_w
+    dir = w
+    exclude = [
+	fae_frostland
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = fae_sand
+    blendTile = fae_sand_e
+    dir = e
+    exclude = [
+	fae_frostland
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = fae_sand
+    blendTile = fae_sand_s
+    dir = s
+    exclude = [
+	fae_frostland
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = fae_sand
+    blendTile = AZA_FaeLand_1_1
+    dir = nw
+    exclude = [
+	fae_frostland
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = fae_sand
+    blendTile = AZA_FaeLand_1_4
+    dir = ne
+    exclude = [
+	fae_frostland
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = fae_sand
+    blendTile = AZA_FaeLand_1_3
+    dir = sw
+    exclude = [
+	fae_frostland
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = fae_sand
+    blendTile = AZA_FaeLand_1_2
+    dir = se
+    exclude = [
+	fae_frostland
+	sand
+	ice
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = fae_grass
+    blendTile = fae_grass_n
+    dir = n
+    exclude = water darkgrass medgrass lightgrass sand ice snowgrass snowiergrass fae_sand graysand
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = fae_grass
+    blendTile = fae_grass_w
+    dir = w
+    exclude = water darkgrass medgrass lightgrass sand ice snowgrass snowiergrass fae_sand graysand
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = fae_grass
+    blendTile = fae_grass_e
+    dir = e
+    exclude = water darkgrass medgrass lightgrass sand ice snowgrass snowiergrass fae_sand graysand
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = fae_grass
+    blendTile = fae_grass_s
+    dir = s
+    exclude = water darkgrass medgrass lightgrass sand ice snowgrass snowiergrass fae_sand graysand
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = fae_grass
+    blendTile = AZA_FaeLand_1_17
+    dir = nw
+    exclude = water darkgrass medgrass lightgrass sand ice snowgrass snowiergrass fae_sand graysand
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = fae_grass
+    blendTile = AZA_FaeLand_1_20
+    dir = ne
+    exclude = water darkgrass medgrass lightgrass sand ice snowgrass snowiergrass fae_sand graysand
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = fae_grass
+    blendTile = AZA_FaeLand_1_19
+    dir = sw
+    exclude = water darkgrass medgrass lightgrass sand ice snowgrass snowiergrass fae_sand graysand
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = fae_grass
+    blendTile = AZA_FaeLand_1_18
+    dir = se
+    exclude = water darkgrass medgrass lightgrass sand ice snowgrass snowiergrass fae_sand graysand
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = graysand
+    blendTile = graysand_n
+    dir = n
+    exclude = [
+		ashland
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = graysand
+    blendTile = graysand_w
+    dir = w
+    exclude = [
+		ashland
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = graysand
+    blendTile = graysand_e
+    dir = e
+    exclude = [
+		ashland
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = graysand
+    blendTile = graysand_s
+    dir = s
+    exclude = [
+		ashland
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = graysand
+    blendTile = AZA_Ashland_Blends_2_1
+    dir = nw
+    exclude = [
+		ashland
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = graysand
+    blendTile = AZA_Ashland_Blends_2_4
+    dir = ne
+    exclude = [
+		ashland
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = graysand
+    blendTile = AZA_Ashland_Blends_2_3
+    dir = sw
+    exclude = [
+		ashland
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = graysand
+    blendTile = AZA_Ashland_Blends_2_2
+    dir = se
+    exclude = [
+		ashland
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+
+
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = lava
+    blendTile = lava_n
+    dir = n
+    exclude = [
+		ashland
+		graysand
+		scorchedEarth
+		CharredEarth
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = lava
+    blendTile = lava_w
+    dir = w
+    exclude = [
+		ashland
+		graysand
+		scorchedEarth
+		CharredEarth
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = lava
+    blendTile = lava_e
+    dir = e
+    exclude = [
+		ashland
+		graysand
+		scorchedEarth
+		CharredEarth
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = lava
+    blendTile = lava_s
+    dir = s
+    exclude = [
+		ashland
+		graysand
+		scorchedEarth
+		CharredEarth
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = lava
+    blendTile = AZA_Lava_1_1
+    dir = nw
+    exclude = [
+		ashland
+		graysand
+		scorchedEarth
+		CharredEarth
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = lava
+    blendTile = AZA_Lava_1_4
+    dir = ne
+    exclude = [
+		ashland
+		graysand
+		scorchedEarth
+		CharredEarth
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = lava
+    blendTile = AZA_Lava_1_3
+    dir = sw
+    exclude = [
+		ashland
+		graysand
+		scorchedEarth
+		CharredEarth
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = lava
+    blendTile = AZA_Lava_1_2
+    dir = se
+    exclude = [
+		ashland
+		graysand
+		scorchedEarth
+		CharredEarth
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = sand
+    blendTile = sand_n
+    dir = n
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = sand
+    blendTile = sand_w
+    dir = w
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = sand
+    blendTile = sand_e
+    dir = e
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = sand
+    blendTile = sand_s
+    dir = s
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = sand
+    blendTile = blends_natural_01_1
+    dir = nw
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = sand
+    blendTile = blends_natural_01_4
+    dir = ne
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = sand
+    blendTile = blends_natural_01_3
+    dir = sw
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = sand
+    blendTile = blends_natural_01_2
+    dir = se
+    exclude = [
+        darkgrass
+        medgrass
+        lightgrass
+        water
+    ]
+    exclude2 = [
+        street_trafficlines_1 0_FloorOverlay
+        street_trafficlines_1 0_FloorOverlay2
+        street_trafficlines_1 0_FloorOverlay3
+        street_trafficlines_1 0_FloorOverlay4
+    ]
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = blends_street_01_0
+    blendTile = blends_street_01_8
+    dir = n
+    exclude = 
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = blends_street_01_0
+    blendTile = blends_street_01_9
+    dir = w
+    exclude = 
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = blends_street_01_0
+    blendTile = blends_street_01_10
+    dir = e
+    exclude = 
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = blends_street_01_0
+    blendTile = blends_street_01_11
+    dir = s
+    exclude = 
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = blends_street_01_0
+    blendTile = blends_street_01_1
+    dir = nw
+    exclude = 
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = blends_street_01_0
+    blendTile = blends_street_01_2
+    dir = se
+    exclude = 
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = blends_street_01_0
+    blendTile = blends_street_01_3
+    dir = sw
+    exclude = 
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = blends_street_01_0
+    blendTile = blends_street_01_4
+    dir = ne
+    exclude = 
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = pothole
+    blendTile = blends_street_01_24
+    dir = n
+    exclude = [
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = pothole
+    blendTile = blends_street_01_25
+    dir = w
+    exclude = [
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = pothole
+    blendTile = blends_street_01_26
+    dir = e
+    exclude = [
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = pothole
+    blendTile = blends_street_01_27
+    dir = s
+    exclude = [
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = pothole
+    blendTile = blends_street_01_17
+    dir = nw
+    exclude = [
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = pothole
+    blendTile = blends_street_01_18
+    dir = se
+    exclude = [
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = pothole
+    blendTile = blends_street_01_19
+    dir = sw
+    exclude = [
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = pothole
+    blendTile = blends_street_01_20
+    dir = ne
+    exclude = [
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = dirt
+    blendTile = blends_natural_01_72
+    dir = n
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+        dirtgrass
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = dirt
+    blendTile = blends_natural_01_73
+    dir = w
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+        dirtgrass
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = dirt
+    blendTile = blends_natural_01_74
+    dir = e
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+        dirtgrass
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = dirt
+    blendTile = blends_natural_01_75
+    dir = s
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+        dirtgrass
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = dirt
+    blendTile = blends_natural_01_65
+    dir = nw
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+        dirtgrass
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = dirt
+    blendTile = blends_natural_01_66
+    dir = se
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+        dirtgrass
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = dirt
+    blendTile = blends_natural_01_67
+    dir = sw
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+        dirtgrass
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = dirt
+    blendTile = blends_natural_01_68
+    dir = ne
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+        dirtgrass
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = dirtgrass
+    blendTile = blends_natural_01_88
+    dir = n
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = dirtgrass
+    blendTile = blends_natural_01_89
+    dir = w
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = dirtgrass
+    blendTile = blends_natural_01_90
+    dir = e
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = dirtgrass
+    blendTile = blends_natural_01_91
+    dir = s
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = dirtgrass
+    blendTile = blends_natural_01_81
+    dir = nw
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = dirtgrass
+    blendTile = blends_natural_01_82
+    dir = se
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = dirtgrass
+    blendTile = blends_natural_01_83
+    dir = sw
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = dirtgrass
+    blendTile = blends_natural_01_84
+    dir = ne
+    exclude = [
+        water
+        lightgrass
+        medgrass
+        darkgrass
+        sand
+    ]
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = water
+    blendTile = blends_natural_02_8
+    dir = n
+    exclude = 
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = water
+    blendTile = blends_natural_02_9
+    dir = w
+    exclude = 
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = water
+    blendTile = blends_natural_02_10
+    dir = e
+    exclude = 
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = water
+    blendTile = blends_natural_02_11
+    dir = s
+    exclude = 
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = water
+    blendTile = blends_natural_02_1
+    dir = nw
+    exclude = 
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = water
+    blendTile = blends_natural_02_2
+    dir = se
+    exclude = 
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = water
+    blendTile = blends_natural_02_3
+    dir = sw
+    exclude = 
+    exclude2 = 
+}
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = water
+    blendTile = blends_natural_02_4
+    dir = ne
+    exclude = 
+    exclude2 = 
+}

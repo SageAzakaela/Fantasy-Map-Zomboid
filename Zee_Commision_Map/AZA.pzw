@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<world version="1.0" width="10" height="20">
+ <BMPToTMX>
+  <tmxexportdir path="tmx"/>
+  <rulesfile path="Custom_Rules_And_Blends/Rules.txt"/>
+  <blendsfile path="Custom_Rules_And_Blends/Blends.txt"/>
+  <mapbasefile path=""/>
+  <assign-maps-to-world checked="true"/>
+  <warn-unknown-colors checked="true"/>
+  <compress checked="true"/>
+  <copy-pixels checked="true"/>
+  <update-existing checked="false"/>
+ </BMPToTMX>
+ <TMXToBMP>
+  <mainImage generate="true"/>
+  <vegetationImage generate="true"/>
+  <buildingsImage path="" generate="false"/>
+ </TMXToBMP>
+ <GenerateLots>
+  <exportdir path=""/>
+  <ZombieSpawnMap path=""/>
+  <TileDefFolder path=""/>
+  <worldOrigin origin="0,0"/>
+ </GenerateLots>
+ <LuaSettings>
+  <spawnPointsFile path=""/>
+  <worldObjectsFile path=""/>
+ </LuaSettings>
+ <bmp path="AZA.png" x="0" y="0" width="10" height="20"/>
+ <propertyenum name="Direction" choices="N,S,W,E" multi="false"/>
+ <propertyenum name="Pose" choices="pose01,pose02,pose03" multi="false"/>
+ <propertyenum name="Skin" choices="White,Black" multi="false"/>
+ <propertyenum name="RoomTone" choices="Generic,Barn,Mall,Warehouse,Prison,Church,Office,Factory" multi="false"/>
+ <propertydef name="Direction" default="N" enum="Direction"/>
+ <propertydef name="FaceDirection" default="true"/>
+ <propertydef name="WaterDirection" default="0.0"/>
+ <propertydef name="WaterSpeed" default="0.0"/>
+ <propertydef name="WaterGround" default="false"/>
+ <propertydef name="WaterShore" default="true"/>
+ <propertydef name="Female" default="true"/>
+ <propertydef name="Outfit" default=""/>
+ <propertydef name="Pose" default="pose01" enum="Pose"/>
+ <propertydef name="Script" default=""/>
+ <propertydef name="Skin" default="White" enum="Skin"/>
+ <propertydef name="RoomTone" default="Generic" enum="RoomTone"/>
+ <propertydef name="EntireBuilding" default="false"/>
+ <template name="ParkingStallN">
+  <property name="Direction" value="N"/>
+ </template>
+ <template name="ParkingStallS">
+  <property name="Direction" value="S"/>
+ </template>
+ <template name="ParkingStallW">
+  <property name="Direction" value="W"/>
+ </template>
+ <template name="ParkingStallE">
+  <property name="Direction" value="E"/>
+ </template>
+ <template name="WaterFlowN">
+  <property name="WaterDirection" value="0"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowS">
+  <property name="WaterDirection" value="180"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowE">
+  <property name="WaterDirection" value="90"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowW">
+  <property name="WaterDirection" value="270"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterZone">
+  <property name="WaterGround" value="false"/>
+  <property name="WaterShore" value="true"/>
+ </template>
+ <template name="RoomTone">
+  <property name="RoomTone" value="Generic"/>
+  <property name="EntireBuilding" value="false"/>
+ </template>
+ <objecttype name="TownZone"/>
+ <objecttype name="Forest"/>
+ <objecttype name="DeepForest"/>
+ <objecttype name="Nav"/>
+ <objecttype name="Vegitation"/>
+ <objecttype name="TrailerPark"/>
+ <objecttype name="Farm"/>
+ <objecttype name="ParkingStall"/>
+ <objecttype name="FarmLand"/>
+ <objecttype name="WaterFlow"/>
+ <objecttype name="WaterZone"/>
+ <objecttype name="Mannequin"/>
+ <objecttype name="RoomTone"/>
+ <objectgroup name="ParkingStall" color="#ff007f" defaulttype="ParkingStall"/>
+ <objectgroup name="TownZone" color="#aa0000" defaulttype="TownZone"/>
+ <objectgroup name="Forest" color="#00aa00" defaulttype="Forest"/>
+ <objectgroup name="Nav" color="#55aaff" defaulttype="Nav"/>
+ <objectgroup name="DeepForest" color="#003500" defaulttype="DeepForest"/>
+ <objectgroup name="Vegitation" color="#b3b300" defaulttype="Vegitation"/>
+ <objectgroup name="TrailerPark" color="#f50000" defaulttype="TrailerPark"/>
+ <objectgroup name="Farm" color="#55ff7f" defaulttype="Farm"/>
+ <objectgroup name="FarmLand" color="#bcff7d" defaulttype="FarmLand"/>
+ <objectgroup name="WaterFlow" color="#0000ff" defaulttype="WaterFlow"/>
+ <objectgroup name="WaterZone" color="#0000ff" defaulttype="WaterZone"/>
+ <objectgroup name="Mannequin" color="#0000ff" defaulttype="Mannequin"/>
+ <objectgroup name="RoomTone" color="#0000ff" defaulttype="RoomTone"/>
+ <cell x="0" y="0" map="tmx/AZA_0_0.tmx"/>
+ <cell x="1" y="0" map="tmx/AZA_1_0.tmx"/>
+ <cell x="2" y="0" map="tmx/AZA_2_0.tmx"/>
+ <cell x="3" y="0" map="tmx/AZA_3_0.tmx"/>
+ <cell x="4" y="0" map="tmx/AZA_4_0.tmx"/>
+ <cell x="5" y="0" map="tmx/AZA_5_0.tmx"/>
+ <cell x="6" y="0" map="tmx/AZA_6_0.tmx"/>
+ <cell x="7" y="0" map="tmx/AZA_7_0.tmx"/>
+ <cell x="8" y="0" map="tmx/AZA_8_0.tmx"/>
+ <cell x="9" y="0" map="tmx/AZA_9_0.tmx"/>
+ <cell x="0" y="1" map="tmx/AZA_0_1.tmx"/>
+ <cell x="1" y="1" map="tmx/AZA_1_1.tmx"/>
+ <cell x="2" y="1" map="tmx/AZA_2_1.tmx"/>
+ <cell x="3" y="1" map="tmx/AZA_3_1.tmx"/>
+ <cell x="4" y="1" map="tmx/AZA_4_1.tmx"/>
+ <cell x="5" y="1" map="tmx/AZA_5_1.tmx"/>
+ <cell x="6" y="1" map="tmx/AZA_6_1.tmx"/>
+ <cell x="7" y="1" map="tmx/AZA_7_1.tmx"/>
+ <cell x="8" y="1" map="tmx/AZA_8_1.tmx"/>
+ <cell x="9" y="1" map="tmx/AZA_9_1.tmx"/>
+ <cell x="0" y="2" map="tmx/AZA_0_2.tmx"/>
+ <cell x="1" y="2" map="tmx/AZA_1_2.tmx"/>
+ <cell x="2" y="2" map="tmx/AZA_2_2.tmx"/>
+ <cell x="3" y="2" map="tmx/AZA_3_2.tmx"/>
+ <cell x="4" y="2" map="tmx/AZA_4_2.tmx"/>
+ <cell x="5" y="2" map="tmx/AZA_5_2.tmx"/>
+ <cell x="6" y="2" map="tmx/AZA_6_2.tmx"/>
+ <cell x="7" y="2" map="tmx/AZA_7_2.tmx"/>
+ <cell x="8" y="2" map="tmx/AZA_8_2.tmx"/>
+ <cell x="9" y="2" map="tmx/AZA_9_2.tmx"/>
+ <cell x="0" y="3" map="tmx/AZA_0_3.tmx"/>
+ <cell x="1" y="3" map="tmx/AZA_1_3.tmx"/>
+ <cell x="2" y="3" map="tmx/AZA_2_3.tmx"/>
+ <cell x="3" y="3" map="tmx/AZA_3_3.tmx"/>
+ <cell x="4" y="3" map="tmx/AZA_4_3.tmx"/>
+ <cell x="5" y="3" map="tmx/AZA_5_3.tmx"/>
+ <cell x="6" y="3" map="tmx/AZA_6_3.tmx"/>
+ <cell x="7" y="3" map="tmx/AZA_7_3.tmx"/>
+ <cell x="8" y="3" map="tmx/AZA_8_3.tmx"/>
+ <cell x="9" y="3" map="tmx/AZA_9_3.tmx"/>
+ <cell x="0" y="4" map="tmx/AZA_0_4.tmx"/>
+ <cell x="1" y="4" map="tmx/AZA_1_4.tmx"/>
+ <cell x="2" y="4" map="tmx/AZA_2_4.tmx"/>
+ <cell x="3" y="4" map="tmx/AZA_3_4.tmx"/>
+ <cell x="4" y="4" map="tmx/AZA_4_4.tmx"/>
+ <cell x="5" y="4" map="tmx/AZA_5_4.tmx"/>
+ <cell x="6" y="4" map="tmx/AZA_6_4.tmx"/>
+ <cell x="7" y="4" map="tmx/AZA_7_4.tmx"/>
+ <cell x="8" y="4" map="tmx/AZA_8_4.tmx"/>
+ <cell x="9" y="4" map="tmx/AZA_9_4.tmx"/>
+ <cell x="0" y="5" map="tmx/AZA_0_5.tmx"/>
+ <cell x="1" y="5" map="tmx/AZA_1_5.tmx"/>
+ <cell x="2" y="5" map="tmx/AZA_2_5.tmx"/>
+ <cell x="3" y="5" map="tmx/AZA_3_5.tmx"/>
+ <cell x="4" y="5" map="tmx/AZA_4_5.tmx"/>
+ <cell x="5" y="5" map="tmx/AZA_5_5.tmx"/>
+ <cell x="6" y="5" map="tmx/AZA_6_5.tmx"/>
+ <cell x="7" y="5" map="tmx/AZA_7_5.tmx"/>
+ <cell x="8" y="5" map="tmx/AZA_8_5.tmx"/>
+ <cell x="9" y="5" map="tmx/AZA_9_5.tmx"/>
+ <cell x="0" y="6" map="tmx/AZA_0_6.tmx"/>
+ <cell x="1" y="6" map="tmx/AZA_1_6.tmx"/>
+ <cell x="2" y="6" map="tmx/AZA_2_6.tmx"/>
+ <cell x="3" y="6" map="tmx/AZA_3_6.tmx"/>
+ <cell x="4" y="6" map="tmx/AZA_4_6.tmx"/>
+ <cell x="5" y="6" map="tmx/AZA_5_6.tmx"/>
+ <cell x="6" y="6" map="tmx/AZA_6_6.tmx"/>
+ <cell x="7" y="6" map="tmx/AZA_7_6.tmx"/>
+ <cell x="8" y="6" map="tmx/AZA_8_6.tmx"/>
+ <cell x="9" y="6" map="tmx/AZA_9_6.tmx"/>
+ <cell x="0" y="7" map="tmx/AZA_0_7.tmx"/>
+ <cell x="1" y="7" map="tmx/AZA_1_7.tmx"/>
+ <cell x="2" y="7" map="tmx/AZA_2_7.tmx"/>
+ <cell x="3" y="7" map="tmx/AZA_3_7.tmx"/>
+ <cell x="4" y="7" map="tmx/AZA_4_7.tmx"/>
+ <cell x="5" y="7" map="tmx/AZA_5_7.tmx"/>
+ <cell x="6" y="7" map="tmx/AZA_6_7.tmx"/>
+ <cell x="7" y="7" map="tmx/AZA_7_7.tmx"/>
+ <cell x="8" y="7" map="tmx/AZA_8_7.tmx"/>
+ <cell x="9" y="7" map="tmx/AZA_9_7.tmx"/>
+ <cell x="0" y="8" map="tmx/AZA_0_8.tmx"/>
+ <cell x="1" y="8" map="tmx/AZA_1_8.tmx"/>
+ <cell x="2" y="8" map="tmx/AZA_2_8.tmx"/>
+ <cell x="3" y="8" map="tmx/AZA_3_8.tmx"/>
+ <cell x="4" y="8" map="tmx/AZA_4_8.tmx"/>
+ <cell x="5" y="8" map="tmx/AZA_5_8.tmx"/>
+ <cell x="6" y="8" map="tmx/AZA_6_8.tmx"/>
+ <cell x="7" y="8" map="tmx/AZA_7_8.tmx">
+  <lot x="168" y="44" level="0" width="13" height="13" map="Buildings/AZA/Test/test_stone_building_ruines.tbx"/>
+  <lot x="170" y="32" level="0" width="7" height="7" map="Buildings/AZA/Test/test_tower_ruins.tbx"/>
+ </cell>
+ <cell x="8" y="8" map="tmx/AZA_8_8.tmx"/>
+ <cell x="9" y="8" map="tmx/AZA_9_8.tmx"/>
+ <cell x="0" y="9" map="tmx/AZA_0_9.tmx"/>
+ <cell x="1" y="9" map="tmx/AZA_1_9.tmx"/>
+ <cell x="2" y="9" map="tmx/AZA_2_9.tmx"/>
+ <cell x="3" y="9" map="tmx/AZA_3_9.tmx"/>
+ <cell x="4" y="9" map="tmx/AZA_4_9.tmx"/>
+ <cell x="5" y="9" map="tmx/AZA_5_9.tmx"/>
+ <cell x="6" y="9" map="tmx/AZA_6_9.tmx"/>
+ <cell x="7" y="9" map="tmx/AZA_7_9.tmx"/>
+ <cell x="8" y="9" map="tmx/AZA_8_9.tmx"/>
+ <cell x="9" y="9" map="tmx/AZA_9_9.tmx"/>
+ <cell x="0" y="10" map="tmx/AZA_0_10.tmx"/>
+ <cell x="1" y="10" map="tmx/AZA_1_10.tmx"/>
+ <cell x="2" y="10" map="tmx/AZA_2_10.tmx"/>
+ <cell x="3" y="10" map="tmx/AZA_3_10.tmx"/>
+ <cell x="4" y="10" map="tmx/AZA_4_10.tmx"/>
+ <cell x="5" y="10" map="tmx/AZA_5_10.tmx"/>
+ <cell x="6" y="10" map="tmx/AZA_6_10.tmx"/>
+ <cell x="7" y="10" map="tmx/AZA_7_10.tmx"/>
+ <cell x="8" y="10" map="tmx/AZA_8_10.tmx"/>
+ <cell x="9" y="10" map="tmx/AZA_9_10.tmx"/>
+ <cell x="0" y="11" map="tmx/AZA_0_11.tmx"/>
+ <cell x="1" y="11" map="tmx/AZA_1_11.tmx"/>
+ <cell x="2" y="11" map="tmx/AZA_2_11.tmx"/>
+ <cell x="3" y="11" map="tmx/AZA_3_11.tmx"/>
+ <cell x="4" y="11" map="tmx/AZA_4_11.tmx"/>
+ <cell x="5" y="11" map="tmx/AZA_5_11.tmx"/>
+ <cell x="6" y="11" map="tmx/AZA_6_11.tmx"/>
+ <cell x="7" y="11" map="tmx/AZA_7_11.tmx"/>
+ <cell x="8" y="11" map="tmx/AZA_8_11.tmx"/>
+ <cell x="9" y="11" map="tmx/AZA_9_11.tmx"/>
+ <cell x="0" y="12" map="tmx/AZA_0_12.tmx"/>
+ <cell x="1" y="12" map="tmx/AZA_1_12.tmx"/>
+ <cell x="2" y="12" map="tmx/AZA_2_12.tmx"/>
+ <cell x="3" y="12" map="tmx/AZA_3_12.tmx"/>
+ <cell x="4" y="12" map="tmx/AZA_4_12.tmx"/>
+ <cell x="5" y="12" map="tmx/AZA_5_12.tmx"/>
+ <cell x="6" y="12" map="tmx/AZA_6_12.tmx"/>
+ <cell x="7" y="12" map="tmx/AZA_7_12.tmx"/>
+ <cell x="8" y="12" map="tmx/AZA_8_12.tmx"/>
+ <cell x="9" y="12" map="tmx/AZA_9_12.tmx"/>
+ <cell x="0" y="13" map="tmx/AZA_0_13.tmx"/>
+ <cell x="1" y="13" map="tmx/AZA_1_13.tmx"/>
+ <cell x="2" y="13" map="tmx/AZA_2_13.tmx"/>
+ <cell x="3" y="13" map="tmx/AZA_3_13.tmx"/>
+ <cell x="4" y="13" map="tmx/AZA_4_13.tmx"/>
+ <cell x="5" y="13" map="tmx/AZA_5_13.tmx"/>
+ <cell x="6" y="13" map="tmx/AZA_6_13.tmx"/>
+ <cell x="7" y="13" map="tmx/AZA_7_13.tmx"/>
+ <cell x="8" y="13" map="tmx/AZA_8_13.tmx"/>
+ <cell x="9" y="13" map="tmx/AZA_9_13.tmx"/>
+ <cell x="0" y="14" map="tmx/AZA_0_14.tmx"/>
+ <cell x="1" y="14" map="tmx/AZA_1_14.tmx"/>
+ <cell x="2" y="14" map="tmx/AZA_2_14.tmx"/>
+ <cell x="3" y="14" map="tmx/AZA_3_14.tmx"/>
+ <cell x="4" y="14" map="tmx/AZA_4_14.tmx"/>
+ <cell x="5" y="14" map="tmx/AZA_5_14.tmx"/>
+ <cell x="6" y="14" map="tmx/AZA_6_14.tmx"/>
+ <cell x="7" y="14" map="tmx/AZA_7_14.tmx"/>
+ <cell x="8" y="14" map="tmx/AZA_8_14.tmx"/>
+ <cell x="9" y="14" map="tmx/AZA_9_14.tmx"/>
+ <cell x="0" y="15" map="tmx/AZA_0_15.tmx"/>
+ <cell x="1" y="15" map="tmx/AZA_1_15.tmx"/>
+ <cell x="2" y="15" map="tmx/AZA_2_15.tmx"/>
+ <cell x="3" y="15" map="tmx/AZA_3_15.tmx"/>
+ <cell x="4" y="15" map="tmx/AZA_4_15.tmx"/>
+ <cell x="5" y="15" map="tmx/AZA_5_15.tmx"/>
+ <cell x="6" y="15" map="tmx/AZA_6_15.tmx"/>
+ <cell x="7" y="15" map="tmx/AZA_7_15.tmx"/>
+ <cell x="8" y="15" map="tmx/AZA_8_15.tmx"/>
+ <cell x="9" y="15" map="tmx/AZA_9_15.tmx"/>
+ <cell x="0" y="16" map="tmx/AZA_0_16.tmx"/>
+ <cell x="1" y="16" map="tmx/AZA_1_16.tmx"/>
+ <cell x="2" y="16" map="tmx/AZA_2_16.tmx"/>
+ <cell x="3" y="16" map="tmx/AZA_3_16.tmx"/>
+ <cell x="4" y="16" map="tmx/AZA_4_16.tmx"/>
+ <cell x="5" y="16" map="tmx/AZA_5_16.tmx"/>
+ <cell x="6" y="16" map="tmx/AZA_6_16.tmx"/>
+ <cell x="7" y="16" map="tmx/AZA_7_16.tmx"/>
+ <cell x="8" y="16" map="tmx/AZA_8_16.tmx"/>
+ <cell x="9" y="16" map="tmx/AZA_9_16.tmx"/>
+ <cell x="0" y="17" map="tmx/AZA_0_17.tmx"/>
+ <cell x="1" y="17" map="tmx/AZA_1_17.tmx"/>
+ <cell x="2" y="17" map="tmx/AZA_2_17.tmx"/>
+ <cell x="3" y="17" map="tmx/AZA_3_17.tmx"/>
+ <cell x="4" y="17" map="tmx/AZA_4_17.tmx"/>
+ <cell x="5" y="17" map="tmx/AZA_5_17.tmx"/>
+ <cell x="6" y="17" map="tmx/AZA_6_17.tmx"/>
+ <cell x="7" y="17" map="tmx/AZA_7_17.tmx"/>
+ <cell x="8" y="17" map="tmx/AZA_8_17.tmx"/>
+ <cell x="9" y="17" map="tmx/AZA_9_17.tmx"/>
+ <cell x="0" y="18" map="tmx/AZA_0_18.tmx"/>
+ <cell x="1" y="18" map="tmx/AZA_1_18.tmx"/>
+ <cell x="2" y="18" map="tmx/AZA_2_18.tmx"/>
+ <cell x="3" y="18" map="tmx/AZA_3_18.tmx"/>
+ <cell x="4" y="18" map="tmx/AZA_4_18.tmx"/>
+ <cell x="5" y="18" map="tmx/AZA_5_18.tmx"/>
+ <cell x="6" y="18" map="tmx/AZA_6_18.tmx"/>
+ <cell x="7" y="18" map="tmx/AZA_7_18.tmx"/>
+ <cell x="8" y="18" map="tmx/AZA_8_18.tmx"/>
+ <cell x="9" y="18" map="tmx/AZA_9_18.tmx"/>
+ <cell x="0" y="19" map="tmx/AZA_0_19.tmx"/>
+ <cell x="1" y="19" map="tmx/AZA_1_19.tmx"/>
+ <cell x="2" y="19" map="tmx/AZA_2_19.tmx"/>
+ <cell x="3" y="19" map="tmx/AZA_3_19.tmx"/>
+ <cell x="4" y="19" map="tmx/AZA_4_19.tmx"/>
+ <cell x="5" y="19" map="tmx/AZA_5_19.tmx"/>
+ <cell x="6" y="19" map="tmx/AZA_6_19.tmx"/>
+ <cell x="7" y="19" map="tmx/AZA_7_19.tmx"/>
+ <cell x="8" y="19" map="tmx/AZA_8_19.tmx"/>
+ <cell x="9" y="19" map="tmx/AZA_9_19.tmx"/>
+</world>
