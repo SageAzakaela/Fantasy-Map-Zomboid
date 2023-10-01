@@ -9,7 +9,7 @@
   <warn-unknown-colors checked="true"/>
   <compress checked="true"/>
   <copy-pixels checked="true"/>
-  <update-existing checked="true"/>
+  <update-existing checked="false"/>
  </BMPToTMX>
  <TMXToBMP>
   <mainImage generate="true"/>
@@ -191,7 +191,9 @@
  <cell x="2" y="8" map="tmx/AZA_2_8.tmx"/>
  <cell x="3" y="8" map="tmx/AZA_3_8.tmx"/>
  <cell x="4" y="8" map="tmx/AZA_4_8.tmx"/>
- <cell x="5" y="8" map="tmx/AZA_5_8.tmx"/>
+ <cell x="5" y="8" map="tmx/AZA_5_8.tmx">
+  <lot x="134" y="143" level="0" width="21" height="21" map="Buildings/AZA/Test/test_mossy_castle_wall_small.tbx"/>
+ </cell>
  <cell x="6" y="8" map="tmx/AZA_6_8.tmx"/>
  <cell x="7" y="8" map="tmx/AZA_7_8.tmx">
   <lot x="168" y="44" level="0" width="13" height="13" map="Buildings/AZA/Test/test_stone_building_ruines.tbx"/>

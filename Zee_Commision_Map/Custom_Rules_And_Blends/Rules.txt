@@ -3,6 +3,95 @@ version = 1
 
 alias
 {
+    name = mossy_stone_n
+    tiles = [
+        AZA_MossyStoneFloor_8
+        AZA_MossyStoneFloor_12
+    ]
+}
+alias
+{
+    name = mossy_stone_w
+    tiles = [
+        AZA_MossyStoneFloor_9
+        AZA_MossyStoneFloor_13
+    ]
+}
+alias
+{
+    name = mossy_stone_e
+    tiles = [
+        AZA_MossyStoneFloor_10
+        AZA_MossyStoneFloor_14
+    ]
+}
+alias
+{
+    name = mossy_stone_s
+    tiles = [
+        AZA_MossyStoneFloor_11
+        AZA_MossyStoneFloor_15
+    ]
+}
+
+alias
+{
+    name = mossy_stone
+    tiles = [
+        AZA_MossyStoneFloor_0
+        AZA_MossyStoneFloor_5
+        AZA_MossyStoneFloor_6
+        AZA_MossyStoneFloor_7
+    ]
+}
+
+alias
+{
+    name = cobble_road_n
+    tiles = [
+        AZA_CobbleRoad_01_8
+        AZA_CobbleRoad_01_12
+    ]
+}
+alias
+{
+    name = cobble_road_w
+    tiles = [
+        AZA_CobbleRoad_01_9
+        AZA_CobbleRoad_01_13
+    ]
+}
+alias
+{
+    name = cobble_road_e
+    tiles = [
+        AZA_CobbleRoad_01_10
+        AZA_CobbleRoad_01_14
+    ]
+}
+alias
+{
+    name = cobble_road_s
+    tiles = [
+        AZA_CobbleRoad_01_11
+        AZA_CobbleRoad_01_15
+    ]
+}
+
+alias
+{
+    name = cobble_road
+    tiles = [
+        AZA_CobbleRoad_01_0
+        AZA_CobbleRoad_01_5
+        AZA_CobbleRoad_01_6
+        AZA_CobbleRoad_01_7
+    ]
+}
+
+
+alias
+{
     name = fae_grass_n
     tiles = [
         AZA_FaeLand_1_24
@@ -44,6 +133,7 @@ alias
         AZA_FaeLand_1_23
     ]
 }
+
 alias
 {
     name = fae_sand_n
@@ -886,6 +976,25 @@ alias
 
 rule
 {
+    label = Mossy Stone
+    bitmap = 0
+    color = 150 255 150
+    tiles = mossy_stone
+    layer = 0_Floor
+}
+
+rule
+{
+    label = Cobble Road
+    bitmap = 0
+    color = 150 150 150
+    tiles = cobble_road
+    layer = 0_Floor
+}
+
+
+rule
+{
     label = Fae Sand
     bitmap = 0
     color = 255 200 245
@@ -1301,6 +1410,7 @@ rule
     layer = 0_Vegetation
     condition = 145 135 60
 }
+
 rule
 {
     bitmap = 1
@@ -1324,6 +1434,7 @@ rule
     layer = 0_Vegetation
     condition = 117 117 47
 }
+
 rule
 {
     label = Grass + Few Trees (dark)
@@ -2246,6 +2357,221 @@ rule
 		AZA_FaeFrostLand_vegetation_22
 		AZA_FaeFrostLand_vegetation_23
 		AZA_FaeFrostLand_vegetation_24
+    ]
+    layer = 0_Vegetation
+}
+
+
+
+rule
+{
+    label = Swamp Trees
+    bitmap = 1
+    color = 0 100 100
+    tiles = [
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		darkshortgrass
+		darkshortgrass
+		AZA_SwampTreesDead_0
+		AZA_SwampTreesDead_1
+		AZA_SwampTreesDead_2
+		AZA_SwampTreesDead_3
+		AZA_SwampTreesDead_4
+		AZA_SwampTreesDead_5
+		AZA_SwampTreesDead_6
+		AZA_SwampTreesDead_7
+		AZA_SwampTreesDead_8
+		AZA_SwampTreesDead_9
+		AZA_SwampTreesDead_10
+		AZA_SwampTreesDead_11
+		d_plants_1_0
+		d_plants_1_1
+		d_plants_1_2
+		d_plants_1_3
+		d_plants_1_4
+		d_plants_1_5
+		d_plants_1_6
+		d_plants_1_7
+		d_plants_1_16
+		d_plants_1_17
+		d_plants_1_18
+		d_plants_1_19
+		d_plants_1_18
+		d_plants_1_19
+		d_plants_1_18
+		d_plants_1_19
+		d_plants_1_18
+		d_plants_1_19
+		d_plants_1_20
+		d_plants_1_21
+		d_plants_1_22
+		d_plants_1_23
+		d_plants_1_31
+
+    ]
+    layer = 0_Vegetation
+}
+
+
+
+
+rule
+{
+    label = Grass Land + Boulders
+    bitmap = 1
+    color = 100 100 0
+    tiles = [
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		invisible_01_0
+		medlonggrass
+		medlonggrass
+		medlonggrass
+		medlonggrass
+		medlonggrass
+		medlonggrass
+		AZA_TallDryGrass_0
+		AZA_TallDryGrass_1
+		AZA_TallDryGrass_2
+		AZA_TallDryGrass_3
+		AZA_TallDryGrass_4
+		AZA_TallDryGrass_5
+		AZA_TallDryGrass_6
+		AZA_TallDryGrass_7
+		AZA_TallDryGrass_0
+		AZA_TallDryGrass_1
+		AZA_TallDryGrass_2
+		AZA_TallDryGrass_3
+		AZA_TallDryGrass_4
+		AZA_TallDryGrass_5
+		AZA_TallDryGrass_6
+		AZA_TallDryGrass_7
+		aza_rockycliff_72
+		aza_rockycliff_73
+		aza_rockycliff_74
+		aza_rockycliff_75
+		aza_rockycliff_76
+		aza_rockycliff_77
+		aza_rockycliff_78
+		aza_rockycliff_79
+		aza_rockycliff_80
+		aza_rockycliff_81
     ]
     layer = 0_Vegetation
 }
