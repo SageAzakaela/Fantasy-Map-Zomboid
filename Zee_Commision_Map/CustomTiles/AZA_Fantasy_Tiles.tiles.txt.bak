@@ -8724,3 +8724,74 @@ tileset
         waterAmount = 9999
     }
 }
+tileset
+{
+    file = aza_rockycliff
+    size = 8,16
+    id = 36
+    // aza_rockycliff_72
+    tile
+    {
+        xy = 0,9
+        Movement = HedgeLow
+    }
+    // aza_rockycliff_73
+    tile
+    {
+        xy = 1,9
+        fireRequirement = 9999
+        solidtrans = 
+    }
+    // aza_rockycliff_74
+    tile
+    {
+        xy = 2,9
+        HoppableN = 
+        HoppableW = 
+        attachedFloor = 
+    }
+    // aza_rockycliff_75
+    tile
+    {
+        xy = 3,9
+        Movement = HedgeLow
+    }
+    // aza_rockycliff_76
+    tile
+    {
+        xy = 4,9
+        Movement = HedgeLow
+    }
+    // aza_rockycliff_77
+    tile
+    {
+        xy = 5,9
+        Movement = HedgeLow
+    }
+    // aza_rockycliff_78
+    tile
+    {
+        xy = 6,9
+        HoppableN = 
+        HoppableW = 
+        attachedFloor = 
+    }
+    // aza_rockycliff_79
+    tile
+    {
+        xy = 7,9
+        Movement = HedgeLow
+    }
+    // aza_rockycliff_80
+    tile
+    {
+        xy = 0,10
+        Movement = HedgeLow
+    }
+    // aza_rockycliff_81
+    tile
+    {
+        xy = 1,10
+        Movement = HedgeLow
+    }
+}

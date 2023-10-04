@@ -373,50 +373,146 @@ blend
 }
 
 
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = scorchedEarth
+    blendTile = scorchedEarth_n
+    dir = n
+    exclude = water swamp_water dirt sand graysand ashland
+}
+
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = scorchedEarth
+    blendTile = scorchedEarth_w
+    dir = w
+    exclude = water lava swamp_water dirt sand graysand ashland
+}
+
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = scorchedEarth
+    blendTile = scorchedEarth_e
+    dir = e
+    exclude = water swamp_water dirt sand graysand ashland
+}
+
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = scorchedEarth
+    blendTile = scorchedEarth_s
+    dir = s
+    exclude = water swamp_water dirt sand graysand ashland
+}
 
 blend
 {
     layer = 0_FloorOverlay
     mainTile = scorchedEarth
+    blendTile = floors_burnt_01_25
+    dir = nw
+    exclude = water swamp_water dirt sand graysand ashland
+    exclude2 = [
+	street_trafficlines_01 0_FloorOverlay
+	street_trafficlines_01 0_FloorOverlay2
+	street_trafficlines_01 0_FloorOverlay3
+	street_trafficlines_01 0_FloorOverlay4
+    ]
+}
+
+blend
+{
+    layer = 0_FloorOverlay2
+    mainTile = scorchedEarth
+    blendTile = floors_burnt_01_27
+    dir = ne
+    exclude = water swamp_water dirt sand graysand ashland
+    exclude2 = [
+	street_trafficlines_01 0_FloorOverlay
+	street_trafficlines_01 0_FloorOverlay2
+	street_trafficlines_01 0_FloorOverlay3
+	street_trafficlines_01 0_FloorOverlay4
+    ]
+}
+
+blend
+{
+    layer = 0_FloorOverlay3
+    mainTile = scorchedEarth
+    blendTile = floors_burnt_01_26
+    dir = sw
+    exclude = water swamp_water dirt sand graysand ashland
+    exclude2 = [
+	street_trafficlines_01 0_FloorOverlay
+	street_trafficlines_01 0_FloorOverlay2
+	street_trafficlines_01 0_FloorOverlay3
+	street_trafficlines_01 0_FloorOverlay4
+    ]
+}
+
+blend
+{
+    layer = 0_FloorOverlay4
+    mainTile = scorchedEarth
+    blendTile = floors_burnt_01_24
+    dir = se
+    exclude = water swamp_water dirt sand graysand ashland
+    exclude2 = [
+	street_trafficlines_01 0_FloorOverlay
+	street_trafficlines_01 0_FloorOverlay2
+	street_trafficlines_01 0_FloorOverlay3
+	street_trafficlines_01 0_FloorOverlay4
+    ]
+}
+
+
+blend
+{
+    layer = 0_FloorOverlay
+    mainTile = CharredEarth
     blendTile = CharredEarth_n
     dir = n
-    exclude = water swamp_water CharredEarth scorchedEarth dirt sand graysand ashland
+    exclude = water  swamp_water dirt sand graysand ashland
 }
 
 blend
 {
     layer = 0_FloorOverlay2
-    mainTile = scorchedEarth
+    mainTile = CharredEarth
     blendTile = CharredEarth_w
     dir = w
-    exclude = water swamp_water CharredEarth scorchedEarth dirt sand graysand ashland
+    exclude = water  swamp_water dirt sand graysand ashland
 }
 
 blend
 {
     layer = 0_FloorOverlay3
-    mainTile = scorchedEarth
+    mainTile = CharredEarth
     blendTile = CharredEarth_e
     dir = e
-    exclude = water swamp_water CharredEarth scorchedEarth dirt sand graysand ashland
+    exclude = water  swamp_water dirt sand graysand ashland
 }
 
 blend
 {
     layer = 0_FloorOverlay4
-    mainTile = scorchedEarth
+    mainTile = CharredEarth
     blendTile = CharredEarth_s
     dir = s
-    exclude = water swamp_water CharredEarth scorchedEarth dirt sand graysand ashland
+    exclude = water  swamp_water dirt sand graysand ashland
 }
 
 blend
 {
     layer = 0_FloorOverlay
-    mainTile = scorchedEarth
+    mainTile = CharredEarth
     blendTile = floors_burnt_01_9
     dir = nw
-    exclude = water swamp_water CharredEarth scorchedEarth dirt sand graysand ashland
+    exclude = water  swamp_water dirt sand graysand ashland
     exclude2 = [
 	street_trafficlines_01 0_FloorOverlay
 	street_trafficlines_01 0_FloorOverlay2
@@ -428,10 +524,10 @@ blend
 blend
 {
     layer = 0_FloorOverlay2
-    mainTile = scorchedEarth
+    mainTile = CharredEarth
     blendTile = floors_burnt_01_12
     dir = ne
-    exclude = water swamp_water CharredEarth scorchedEarth dirt sand graysand ashland
+    exclude = water  swamp_water dirt sand graysand ashland
     exclude2 = [
 	street_trafficlines_01 0_FloorOverlay
 	street_trafficlines_01 0_FloorOverlay2
@@ -443,10 +539,10 @@ blend
 blend
 {
     layer = 0_FloorOverlay3
-    mainTile = scorchedEarth
+    mainTile = CharredEarth
     blendTile = floors_burnt_01_11
     dir = sw
-    exclude = water swamp_water CharredEarth scorchedEarth dirt sand graysand ashland
+    exclude = water  swamp_water dirt sand graysand ashland
     exclude2 = [
 	street_trafficlines_01 0_FloorOverlay
 	street_trafficlines_01 0_FloorOverlay2
@@ -458,10 +554,10 @@ blend
 blend
 {
     layer = 0_FloorOverlay4
-    mainTile = scorchedEarth
+    mainTile = CharredEarth
     blendTile = floors_burnt_01_10
     dir = se
-    exclude = water swamp_water CharredEarth scorchedEarth dirt sand graysand ashland
+    exclude = water  swamp_water dirt sand graysand ashland
     exclude2 = [
 	street_trafficlines_01 0_FloorOverlay
 	street_trafficlines_01 0_FloorOverlay2
@@ -469,6 +565,9 @@ blend
 	street_trafficlines_01 0_FloorOverlay4
     ]
 }
+
+
+
 
 blend
 {
