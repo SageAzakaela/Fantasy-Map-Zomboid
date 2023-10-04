@@ -17,13 +17,13 @@
   <buildingsImage path="" generate="false"/>
  </TMXToBMP>
  <GenerateLots>
-  <exportdir path=""/>
-  <ZombieSpawnMap path=""/>
-  <TileDefFolder path=""/>
+  <exportdir path="MAP BUILDS/Aza/lots"/>
+  <ZombieSpawnMap path="AZA_ZombieSpawn.png"/>
+  <TileDefFolder path="../../../SteamLibrary/steamapps/common/Project Zomboid Modding Tools/Tiles"/>
   <worldOrigin origin="0,0"/>
  </GenerateLots>
  <LuaSettings>
-  <spawnPointsFile path=""/>
+  <spawnPointsFile path="MapObjects/spawnpoints.lua"/>
   <worldObjectsFile path=""/>
  </LuaSettings>
  <bmp path="AZA.png" x="0" y="0" width="10" height="20"/>
@@ -31,6 +31,8 @@
  <propertyenum name="Pose" choices="pose01,pose02,pose03" multi="false"/>
  <propertyenum name="Skin" choices="White,Black" multi="false"/>
  <propertyenum name="RoomTone" choices="Generic,Barn,Mall,Warehouse,Prison,Church,Office,Factory" multi="false"/>
+ <propertyenum name="Professions" choices="accountant,bookkeeper,burglar,cashier,chef,constructionworker,cook,customerservice,doctor,drugdealer,farmer,fastfoodcook,fireofficer,itworker,janitor,militaryofficer,militarysoldier,nurse,officeworker,parkranger,policeofficer,salesperson,secretary,securityguard,shopclerk,teacher,truckdriver,unemployed,waiter" multi="false"/>
+ <propertyenum name="Ranch" choices="chicken,cow,pig,sheep" multi="false"/>
  <propertydef name="Direction" default="N" enum="Direction"/>
  <propertydef name="FaceDirection" default="true"/>
  <propertydef name="WaterDirection" default="0.0"/>
@@ -44,6 +46,13 @@
  <propertydef name="Skin" default="White" enum="Skin"/>
  <propertydef name="RoomTone" default="Generic" enum="RoomTone"/>
  <propertydef name="EntireBuilding" default="false"/>
+ <propertydef name="Ranch" default="all" enum="Ranch"/>
+ <propertydef name="StairX" default=""/>
+ <propertydef name="StairY" default=""/>
+ <propertydef name="StairDirection" default=""/>
+ <propertydef name="Professions" default="all" enum="Professions">
+  <description>Comma-separated list of professions that may spawn here.  Use &quot;all&quot; to allow any profession to spawn here.</description>
+ </propertydef>
  <template name="ParkingStallN">
   <property name="Direction" value="N"/>
  </template>
@@ -80,6 +89,15 @@
   <property name="RoomTone" value="Generic"/>
   <property name="EntireBuilding" value="false"/>
  </template>
+ <template name="Basement">
+  <property name="StairX" value="0"/>
+  <property name="StairY" value="0"/>
+  <property name="StairDirection" value="N"/>
+ </template>
+ <template name="SpawnPoint">
+  <description>This template holds the default set of properties for all spawn points in the world.</description>
+  <property name="Professions" value="all"/>
+ </template>
  <objecttype name="TownZone"/>
  <objecttype name="Forest"/>
  <objecttype name="DeepForest"/>
@@ -93,6 +111,9 @@
  <objecttype name="WaterZone"/>
  <objecttype name="Mannequin"/>
  <objecttype name="RoomTone"/>
+ <objecttype name="Ranch"/>
+ <objecttype name="Basement"/>
+ <objecttype name="SpawnPoint"/>
  <objectgroup name="ParkingStall" color="#ff007f" defaulttype="ParkingStall"/>
  <objectgroup name="TownZone" color="#aa0000" defaulttype="TownZone"/>
  <objectgroup name="Forest" color="#00aa00" defaulttype="Forest"/>
@@ -106,6 +127,8 @@
  <objectgroup name="WaterZone" color="#0000ff" defaulttype="WaterZone"/>
  <objectgroup name="Mannequin" color="#0000ff" defaulttype="Mannequin"/>
  <objectgroup name="RoomTone" color="#0000ff" defaulttype="RoomTone"/>
+ <objectgroup name="Ranch" color="#ff8000" defaulttype="Ranch"/>
+ <objectgroup name="Basement" color="#00ffee" defaulttype="Basement"/>
  <cell x="0" y="0" map="tmx/AZA_0_0.tmx"/>
  <cell x="1" y="0" map="tmx/AZA_1_0.tmx"/>
  <cell x="2" y="0" map="tmx/AZA_2_0.tmx"/>
@@ -282,7 +305,12 @@
  <cell x="3" y="17" map="tmx/AZA_3_17.tmx"/>
  <cell x="4" y="17" map="tmx/AZA_4_17.tmx"/>
  <cell x="5" y="17" map="tmx/AZA_5_17.tmx"/>
- <cell x="6" y="17" map="tmx/AZA_6_17.tmx"/>
+ <cell x="6" y="17" map="tmx/AZA_6_17.tmx">
+  <lot x="124" y="21" level="0" width="51" height="51" map="../../../Zee_Commision_Map/Buildings/AZA/Castles/Castle_1.tbx"/>
+  <object type="SpawnPoint" x="147" y="27" level="2" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+ </cell>
  <cell x="7" y="17" map="tmx/AZA_7_17.tmx"/>
  <cell x="8" y="17" map="tmx/AZA_8_17.tmx"/>
  <cell x="9" y="17" map="tmx/AZA_9_17.tmx"/>

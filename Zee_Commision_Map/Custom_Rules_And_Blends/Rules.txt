@@ -973,6 +973,16 @@ alias
         blends_natural_02_7
     ]
 }
+alias
+{
+    name = swamp_water
+    tiles = [
+        AZA_SwampWater_0
+        AZA_SwampWater_5
+        AZA_SwampWater_6
+        AZA_SwampWater_7
+    ]
+}
 
 rule
 {
@@ -1194,6 +1204,14 @@ rule
     bitmap = 0
     color = 0 138 255
     tiles = water
+    layer = 0_Floor
+}
+rule
+{
+    label = Swamp Water
+    bitmap = 0
+    color = 0 100 100
+    tiles = swamp_water
     layer = 0_Floor
 }
 rule
